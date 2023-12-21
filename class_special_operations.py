@@ -14,8 +14,10 @@ class Compitation:
         return '{}  {}'.format(self.get_cou(),self.__price)
 
 
+
+
 rowing=Compitation('Rowing',10000,'uk')
-# print(rowing)
+print(rowing)
 print(repr(rowing))
 print(rowing.__repr__())
 print(str(rowing))
