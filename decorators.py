@@ -45,5 +45,6 @@ print(w.name)#call getter method
 print(w.age)#call getter method
 del w.name #call deletor method
 del w.age #call deletor method
+
 # print(w.name)# Attribute Error
 # print(w.age)# Attribute Error
