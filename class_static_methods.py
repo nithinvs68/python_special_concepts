@@ -60,6 +60,6 @@ class Rectange2:
         return x*y
 
 rec=Rectange2()
-print(rec.area(4,5))
+print(rec.area(4,9))
 
 
