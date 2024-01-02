@@ -12,6 +12,7 @@ class Team(ABC):
     def behavior(self):
         print("They show complex expression and social nehaviour")
 
+
 class Human(Team):
     def diet(self):
         #pass, Will get error if no implementation for this function since it is abstract in base class
