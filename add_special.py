@@ -6,7 +6,6 @@ class Add():
         return self.__amount + other.__amount
 
 class Sub:
-
     def __init__(self, amount):
         self.__amount = amount
 
@@ -15,7 +14,6 @@ class Sub:
         #return self.__amount * other.__amount output will be multiplications
 
 class Mul:
-
     def __init__(self, amount):
         self.__amount = amount
 
