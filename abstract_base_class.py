@@ -15,8 +15,18 @@ class Team(ABC):
 
 class Human(Team):
     def diet(self):
-        #pass, Will get error if no implementation for this function since it is abstract in base class
+        # pass #, Will get error if no implementation for this function since it is abstract in base class
         print("Human are carnivorous")
+
+    def walk(self):
+        # pass ,Will get error if no implementation for this function since it is abstract in base class
+        print("They are bipeds")
+
+class Tt(Team):
+    # , Will get error if no implementation for this function since it is abstract in base class
+    def diet(self):
+        pass
+        # print("Human are carnivorous")
 
     def walk(self):
         # pass ,Will get error if no implementation for this function since it is abstract in base class
@@ -26,4 +36,7 @@ nithin=Human()
 print(nithin.diet())
 print(nithin.walk())
 print(nithin.behavior())
-help(ABC)
+ab=Tt()
+print((ab.diet()))
+# print(nithin.diet())
+# help(ABC)
