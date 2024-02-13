@@ -1,26 +1,26 @@
 from queue import Queue
 
 
-# olympics=Queue(5)
-# # print(olympics)
-# print(olympics.empty())#True
-# olympics.put('United states(USA)')
-# olympics.put('Grate britin(GBR)')
+olympics=Queue(5)
 # print(olympics)
-# print(olympics.empty())#False  check wheather queue is empty
-# # print(len(olympics))
-# print(olympics.full())# check queue is full or not
-# print(olympics.qsize())#loaded elements output:2
-# olympics.put('china')
-# olympics.put('India')
-# olympics.put('Russia')
-# print(olympics.full()) #True
-# print(olympics.qsize()) #output:2
-# olympics.get()
-# print(olympics.qsize())#4
-# olympics.put('paki')
-# print(olympics.qsize())
-# olympics.dqueue()
+print(olympics.empty())#True
+olympics.put('United states(USA)')
+olympics.put('Grate britin(GBR)')
+print(olympics)
+print(olympics.empty())#False  check wheather queue is empty
+# print(len(olympics))
+print(olympics.full())# check queue is full or not
+print(olympics.qsize())#loaded elements output:2
+olympics.put('china')
+olympics.put('India')
+olympics.put('Russia')
+print(olympics.full()) #True
+print(olympics.qsize()) #output:2
+olympics.get()
+print(olympics.qsize())#4
+olympics.put('paki')
+print(olympics.qsize())
+olympics.dqueue()
 
 '''Defining user queue'''
 
